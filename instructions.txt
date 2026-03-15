@@ -1,0 +1,64 @@
+Use Python's turtle to create images
+
+Language: Python
+Commands:
+  turtle.showturtle() -- shows turtle on the canvas to give you a visual of where it is
+  turtle.hideturtle() -- turtle becomes invisible on the canvas to help you better see your drawing
+
+----------------------------------------------
+
+  -- Drawing --
+  turtle.penup() -- lift the pen up off the canvas to move turtle without drawing
+  turtle.pendown() -- put the pen on the canvas to start drawing
+
+  turtle.pensize() -- choose the thickness of the lines
+
+  turtle.circle(number) -- draws a circle with radius "number"
+  turtle.circle(radius-number, degree) -- draws part of a circle with a radius of "radius-number"
+  * Full circle = 360 degree
+  * Half circle = 180 degree
+  * 1/4th circle = 90 degree
+
+
+  -- Movement --
+  turtle.forward(number) -- moves turtle forward by "number" of pixels
+  turtle.back(number) -- moves turtle backward by a "number" of pixels
+
+  turtle.left(degree) -- rotate turtle to the left by "degree" degrees (ex. 90 degrees)
+  turtle.right(degree) -- same but rotates right
+
+  turtle.goto(x, y) -- place turtle at specific coordinates
+  Canvas grid:
+              |+y
+              |
+              |
+  -x          |           +x
+  ----------(0,0)-----------
+              |
+              |
+              |
+              |-y
+
+turtle's default position is in the center at (0,0)
+
+----------------------------------------------
+
+  -- Colors --
+  turtle.pencolor("color") -- grab a color to use for future lines
+  turtle.fillcolor("color") -- grab a color to use for future fills (color inside the lines)
+
+    NOTE: To use fill, you must do the following:
+    turtle.begin_fill()
+      # insert code to create a shape here
+    turtle.end_fill()
+
+  EXAMPLE:
+    turtle.pencolor("black")
+    turtle.fillcolor("yellow")
+    turtle.begin_fill()
+    turtle.circle(80)
+    turtle.end_fill()
+
+  This draws a yellow circle (with radius 80) with a black border
+
+----------------------------------------------

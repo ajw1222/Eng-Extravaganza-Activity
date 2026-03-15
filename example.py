@@ -1,6 +1,5 @@
-# Annie Houston
-# CS1400 - 001
-# Assignment 2
+# Draw a snowman example
+# TODO: To run, type "python example.py" in the terminal
 
 import turtle
 turtle.showturtle()
@@ -12,7 +11,6 @@ turtle.right(90)
 turtle.forward(175)
 turtle.left(90)
 
-# --
 
 # Draw the 3 circles of the snowman's body
 turtle.fillcolor("white")
@@ -40,7 +38,6 @@ turtle.begin_fill()
 turtle.circle(45)
 turtle.end_fill()
 
-# --
 
 # Create the snowman's buttons
 turtle.fillcolor("orange")
@@ -66,7 +63,6 @@ turtle.begin_fill()
 turtle.circle(7)
 turtle.end_fill()
 
-# --
 
 # Draw the snowman's eyes
 turtle.fillcolor("black")
@@ -86,7 +82,6 @@ turtle.begin_fill()
 turtle.circle(9)
 turtle.end_fill()
 
-# --
 
 # Draw the snowman's hat
 turtle.speed(10)
@@ -106,6 +101,7 @@ turtle.right(60)
 turtle.forward(40)
 turtle.left(90)
 
+
 # top of hat length
 turtle.forward(50)
 
@@ -119,7 +115,6 @@ turtle.left(90)
 turtle.forward(60)
 turtle.end_fill()
 
-# --
 
 # Draw the snowman's arms
 # Left arm
@@ -133,6 +128,7 @@ turtle.pendown()
 turtle.forward(50)
 turtle.left(50)
 turtle.forward(60)
+
 
 # Left fingers
 turtle.left(45)
@@ -148,6 +144,7 @@ turtle.right(45)
 turtle.pendown()
 turtle.forward(10)
 
+
 # Right arm
 turtle.penup()
 turtle.goto(0, 42)
@@ -156,6 +153,7 @@ turtle.forward(50)
 turtle.pendown()
 turtle.left(60)
 turtle.forward(110)
+
 
 # Right fingers
 turtle.right(45)
@@ -171,7 +169,6 @@ turtle.left(45)
 turtle.pendown()
 turtle.forward(10)
 
-# --
 
 # Draw the snowman's mouth
 turtle.penup()
