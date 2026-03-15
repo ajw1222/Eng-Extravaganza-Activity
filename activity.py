@@ -3,7 +3,8 @@
 import turtle
 turtle.showturtle()
 
-# TODO: Write your code below:
+
+# TODO: Write your code below (feel free to delete the example code):
 turtle.left(90) # Turn turtle to face up
 turtle.speed(3)
 turtle.color("red")
@@ -21,6 +22,7 @@ turtle.forward(100)
 
 turtle.penup()
 turtle.forward(100)
+
 
 # Ends the drawing
 turtle.hideturtle()
