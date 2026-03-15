@@ -1,4 +1,6 @@
 Use Python's turtle to create images
+Write code in .py files to instruct turtle on what to draw, and then run "python <file>.py" 
+    in the terminal to watch turtle draw your code!
 
 Language: Python
 Commands:
@@ -11,7 +13,7 @@ Commands:
   turtle.penup() -- lift the pen up off the canvas to move turtle without drawing
   turtle.pendown() -- put the pen on the canvas to start drawing
 
-  turtle.pensize() -- choose the thickness of the lines
+  turtle.pensize(number) -- choose the thickness of the lines
 
   turtle.circle(number) -- draws a circle with radius "number"
   turtle.circle(radius-number, degree) -- draws part of a circle with a radius of "radius-number"
